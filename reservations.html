@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reserve uma mesa no Restaurante Saboroso — rápido, fácil e sem complicação.">
+  <meta name="author" content="SProviders.com.br">
+  <meta name="theme-color" content="#E8860A">
+
+  <title>Reservas — Restaurante Saboroso!</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/themify-icons.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVEGAÇÃO -->
+  <nav class="site-nav" role="navigation" aria-label="Menu principal">
+    <div class="container-inner nav-inner">
+      <a href="index.html" class="nav-logo">Saboroso<em>!</em></a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menus.html">Menu</a></li>
+        <li><a href="services.html">Serviços</a></li>
+        <li><a href="contacts.html">Contato</a></li>
+        <li class="nav-cta"><a href="reservations.html" class="active">Reserva</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /NAVEGAÇÃO -->
+
+
+  <!-- HERO -->
+  <header class="hero hero--md" style="background-image: url(images/img_bg_2.jpg)" role="banner">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="container-inner text-center">
+        <div class="animate-box">
+          <span class="hero__eyebrow">Restaurante Saboroso</span>
+          <h1 class="hero__title">Reserve uma Mesa</h1>
+          <p class="hero__subtitle" style="margin: 0 auto">Garanta seu lugar e venha viver uma experiência gastronômica inesquecível.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /HERO -->
+
+
+  <!-- FORMULÁRIO DE RESERVA -->
+  <section class="section">
+    <div class="container-inner">
+      <div class="reservations-grid">
+
+        <!-- Formulário -->
+        <div class="animate-box">
+          <h3 style="font-size: 26px; font-weight: 700; margin-bottom: 28px; color: var(--color-dark)">Dados da Reserva</h3>
+          <form action="#" novalidate>
+            <div class="form-group">
+              <label for="resName">Nome completo</label>
+              <input type="text" id="resName" name="name" class="form-control" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+              <label for="resEmail">E-mail</label>
+              <input type="email" id="resEmail" name="email" class="form-control" placeholder="seu@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="resPeople">Número de pessoas</label>
+              <select id="resPeople" name="people" class="form-control" required>
+                <option value="">— Selecione —</option>
+                <option value="1">1 pessoa</option>
+                <option value="2">2 pessoas</option>
+                <option value="3">3 pessoas</option>
+                <option value="4">4 pessoas</option>
+                <option value="5+">5 ou mais</option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="resDate">Data</label>
+                  <input type="date" id="resDate" name="date" class="form-control" required>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label for="resTime">Hora</label>
+                  <input type="time" id="resTime" name="time" class="form-control" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="resObs">Observações (opcional)</label>
+              <textarea id="resObs" name="obs" rows="3" class="form-control" placeholder="Alergias, preferências ou ocasião especial..."></textarea>
+            </div>
+            <input type="submit" class="btn btn-primary btn-block" value="Confirmar reserva">
+          </form>
+        </div>
+
+        <!-- Informações -->
+        <div class="animate-box">
+          <h3 style="font-size: 26px; font-weight: 700; margin-bottom: 28px; color: var(--color-dark)">Informações Úteis</h3>
+
+          <ul class="contact-info-list">
+            <li>
+              <i class="icon-location2"></i>
+              <div>
+                <strong>Endereço</strong><br>
+                Rua Antonio Camargo, 234<br>
+                Centro — São Paulo, SP<br>
+                CEP 01310-100
+              </div>
+            </li>
+            <li>
+              <i class="icon-phone"></i>
+              <div>
+                <strong>Reservas por telefone</strong><br>
+                <a href="tel:+5511987654321">(11) 98765-4321</a>
+              </div>
+            </li>
+            <li>
+              <i class="icon-mail2"></i>
+              <div>
+                <strong>E-mail</strong><br>
+                <a href="mailto:contato@saboroso.com.br">contato@saboroso.com.br</a>
+              </div>
+            </li>
+            <li>
+              <i class="ti-time"></i>
+              <div>
+                <strong>Horário de Funcionamento</strong><br>
+                Seg – Sex: 11h às 23h<br>
+                Sábado: 11h às 00h<br>
+                Domingo: 11h às 22h
+              </div>
+            </li>
+          </ul>
+
+          <!-- Card de aviso -->
+          <div style="background: #FFF8EE; border-left: 4px solid var(--color-primary); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 20px 24px; margin-top: 32px;">
+            <p style="margin: 0; font-size: 14px; color: var(--color-text)">
+              <strong style="color: var(--color-dark)">Política de cancelamento:</strong><br>
+              Reservas podem ser canceladas com até 2 horas de antecedência sem custo. Para grupos acima de 8 pessoas, entre em contato por telefone.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- /FORMULÁRIO DE RESERVA -->
+
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container-inner">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">Saboroso<em>!</em></a>
+          <p>Uma experiência gastronômica que une sabor, ambiente e hospitalidade desde 1985.</p>
+          <div class="footer-social">
+            <a href="https://twitter.com/" aria-label="Twitter"><i class="icon-twitter"></i></a>
+            <a href="https://www.facebook.com/" aria-label="Facebook"><i class="icon-facebook"></i></a>
+            <a href="https://www.instagram.com/" aria-label="Instagram"><i class="ti-instagram"></i></a>
+            <a href="https://www.youtube.com/" aria-label="YouTube"><i class="icon-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menus.html">Cardápio</a></li>
+            <li><a href="services.html">Serviços</a></li>
+            <li><a href="contacts.html">Contato</a></li>
+            <li><a href="reservations.html">Reservas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Horários</h4>
+          <ul>
+            <li>Seg – Sex: 11h às 23h</li>
+            <li>Sábado: 11h às 00h</li>
+            <li>Domingo: 11h às 22h</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="tel:+5511987654321">(11) 98765-4321</a></li>
+            <li><a href="mailto:contato@saboroso.com.br">contato@saboroso.com.br</a></li>
+            <li>Rua Antonio Camargo, 234<br>Centro — São Paulo, SP</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Restaurante Saboroso. Todos os direitos reservados. Desenvolvido por <a href="#">SProviders.com.br</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- /RODAPÉ -->
+
+
+  <div class="gototop">
+    <a href="#" aria-label="Voltar ao topo"><i class="icon-arrow-up"></i></a>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
