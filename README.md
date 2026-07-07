@@ -35,6 +35,5 @@ https://github.com/laryssasouzacs/Restaurante-Saboroso
 
 Este projeto foi desenvolvido como parte das atividades do curso Técnico em Desenvolvimento de Sistemas, contribuindo para o aprendizado de desenvolvimento front-end e criação de interfaces web.
 
-## Autora
-
-Laryssa Souza
+---
+### Laryssa Souza
