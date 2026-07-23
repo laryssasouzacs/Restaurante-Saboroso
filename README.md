@@ -1,4 +1,4 @@
-# Restaurante Saboroso
+# 🥗 Restaurante Saboroso
 
 Site de restaurante desenvolvido durante o curso Técnico em Desenvolvimento de Sistemas.
 
@@ -34,6 +34,3 @@ https://github.com/laryssasouzacs/Restaurante-Saboroso
 ## Contexto
 
 Este projeto foi desenvolvido como parte das atividades do curso Técnico em Desenvolvimento de Sistemas, contribuindo para o aprendizado de desenvolvimento front-end e criação de interfaces web.
-
----
-### Laryssa Souza
